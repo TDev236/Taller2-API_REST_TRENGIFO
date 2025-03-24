@@ -1,3 +1,5 @@
-gunicorn main:app
+web:
+  command: gunicorn app:app
+
 
 
