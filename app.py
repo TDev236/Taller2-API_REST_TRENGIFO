@@ -10,6 +10,7 @@ class Gato:
 
 class Perro:
     def hacer_sonido(self):
+        
         return "Guau"
     
 class Huron:
@@ -48,4 +49,4 @@ def index():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
